@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #00bfff, #008000);
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .question p {
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .submit-btn {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .card{
+          width: 550px;
+          height: 100px;
+          border: 1px solid #ccc;
+          padding: 10px;
+          margin-bottom: 20px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          border-radius: 40px;;
+
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card"><h1><center>HTML Quiz</center></h1></div>
+
+        <form>
+            <div class="question">
+                <p>Question 1: What does HTML stand for?</p>
+                <div class="options">
+                    <label><input type="radio" name="q1"> Hyperlinks and Text Markup Language</label>
+                    <label><input type="radio" name="q1"> Home Tool Markup Language</label>
+                    <label><input type="radio" name="q1"> Hyper Text Markup Language</label>
+                    <label><input type="radio" name="q1"> Hyper Transfer Markup Language</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Question 2: Which tag is used to create a hyperlink in HTML?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2"> &lt;a&gt;</label>
+                    <label><input type="radio" name="q2"> &lt;p&gt;</label>
+                    <label><input type="radio" name="q2"> &lt;h1&gt;</label>
+                    <label><input type="radio" name="q2"> &lt;div&gt;</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Question 3: Which tag is used to define a paragraph in HTML?</p>
+                <div class="options">
+                    <label><input type="radio" name="q3"> &lt;a&gt;</label>
+                    <label><input type="radio" name="q3"> &lt;p&gt;</label>
+                    <label><input type="radio" name="q3"> &lt;h1&gt;</label>
+                    <label><input type="radio" name="q3"> &lt;div&gt;</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Question 4: Which tag is used to display a heading in HTML?</p>
+                <div class="options">
+                    <label><input type="radio" name="q4"> &lt;a&gt;</label>
+                    <label><input type="radio" name="q4"> &lt;p&gt;</label>
+                    <label><input type="radio" name="q4"> &lt;h1&gt;</label>
+                    <label><input type="radio" name="q4"> &lt;div&gt;</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Question 5: Which attribute is used to define inline styles in HTML?</p>
+                <div class="options">
+                    <label><input type="radio" name="q5"> class</label>
+                    <label><input type="radio" name="q5"> style</label>
+                    <label><input type="radio" name="q5"> id</label>
+                    <label><input type="radio" name="q5"> src</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Question 6: Which tag is used to insert an image in HTML?</p>
+                <div class="options">
+                    <label><input type="radio" name="q6"> &lt;a&gt;</label>
+                    <label><input type="radio" name="q6"> &lt;p&gt;</label>
+                    <label><input type="radio" name="q6"> &lt;h1&gt;</label>
+                    <label><input type="radio" name="q6"> &lt;img&gt;</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Question 7: Which tag is used to define an unordered list in HTML?</p>
+                <div class="options">
+                    <label><input type="radio" name="q7"> &lt;ul&gt;</label>
+                    <label><input type="radio" name="q7"> &lt;ol&gt;</label>
+                    <label><input type="radio" name="q7"> &lt;li&gt;</label>
+                    <label><input type="radio" name="q7"> &lt;list&gt;</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Question 8: Which tag is used to define a table in HTML?</p>
+                <div class="options">
+                    <label><input type="radio" name="q8"> &lt;table&gt;</label>
+                    <label><input type="radio" name="q8"> &lt;div&gt;</label>
+                    <label><input type="radio" name="q8"> &lt;tr&gt;</label>
+                    <label><input type="radio" name="q8"> &lt;td&gt;</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Question 9: Which tag is used to create a form in HTML?</p>
+                <div class="options">
+                    <label><input type="radio" name="q9"> &lt;a&gt;</label>
+                    <label><input type="radio" name="q9"> &lt;p&gt;</label>
+                    <label><input type="radio" name="q9"> &lt;h1&gt;</label>
+                    <label><input type="radio" name="q9"> &lt;form&gt;</label>
+                </div>
+            </div>
+
+            <input type="submit" value="Submit" class="submit-btn"> 
+        </form>
+           

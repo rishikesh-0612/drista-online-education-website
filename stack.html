@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stack Implementation</title>
+  <style>
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: linear-gradient(90deg,rgba(63,94,251,1) 0%, rgba(135,252,70,1) 100%);
+
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  margin-top: 30px;
+  color: white;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+li{
+    color: white;
+}
+
+pre {
+  background-color: #f5f5f5;
+  padding: 10px;
+  overflow-x: auto;
+  font-size: 14px;
+}
+
+code {
+  font-family: Consolas, monospace;
+}
+
+strong {
+  font-weight: bold;
+}
+.container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+p{
+    color:white;
+}
+  </style>
+</head>
+
+<div class="container">
+
+<body>
+  <h1>Stack Implementation</h1>
+  <p>A stack is an abstract data type (ADT) commonly used in programming languages. It follows the LIFO (Last-In-First-Out) principle, similar to a real-world stack of cards or plates.</p>
+  <h2>Stack Operations</h2>
+  <ul>
+    <li><strong>push</strong>: Insert an element onto the stack</li>
+    <li><strong>pop</strong>: Remove and access the top element from the stack</li>
+    <li><strong>peek</strong>: Get the top element without removing it</li>
+    <li><strong>isFull</strong>: Check if the stack is full</li>
+    <li><strong>isEmpty</strong>: Check if the stack is empty</li>
+  </ul>
+  <h2>Basic Stack Implementation</h2>
+  <pre><code>
+    #include &lt;stdio.h&gt;
+    #include &lt;stdbool.h&gt;
+
+    #define MAXSIZE 100
+
+    int stack[MAXSIZE];
+    int top = -1;
+
+    void push(int data) {
+      if (!isFull()) {
+        top++;
+        stack[top] = data;
+      } else {
+        printf("Could not insert data, Stack is full.\n");
+      }
+    }
+
+    int pop() {
+      if (!isEmpty()) {
+        int data = stack[top];
+        top--;
+        return data;
+      } else {
+        printf("Could not retrieve data, Stack is empty.\n");
+        return -1;
+      }
+    }
+
+    int peek() {
+      if (!isEmpty()) {
+        return stack[top];
+      } else {
+        printf("Stack is empty.\n");
+        return -1;
+      }
+    }
+
+    bool isFull() {
+      if (top == MAXSIZE - 1)
+        return true;
+      else
+        return false;
+    }
+
+    bool isEmpty() {
+      if (top == -1)
+        return true;
+      else
+        return false;
+    }
+
+    int main() {
+      push(5);
+      push(10);
+      push(15);
+      printf("Peek: %d\n", peek());
+      printf("Pop: %d\n", pop());
+      printf("Pop: %d\n", pop());
+      printf("Peek: %d\n", peek());
+      return 0;
+    }
+  </code></pre>
+</body>
+</div>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Java Language Documentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      background: linear-gradient(to bottom, #c6abfd, #c6abfd);
+    }
+
+    h1 {
+      color: #333;
+      font-size: 24px;
+    }
+
+    h2 {
+      color: #333;
+      font-size: 20px;
+    }
+
+    p {
+      color: black;
+    }
+
+    pre {
+      background-color: #f4f4f4;
+      padding: 10px;
+      overflow-x: auto;
+    }
+
+    code {
+      font-family: Consolas, monospace;
+    }
+  </style>
+</head>
+<body>
+  <h1>Java Language Documentation</h1>
+  
+  <h2>Hello World</h2>
+  <p>Prints "Hello, World!" to the console.</p>
+  <pre><code>public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("Hello, World!");
+  }
+}</code></pre>
+
+  <h2>Data Types</h2>
+  <p>Examples of Java data types:</p>
+  <pre><code>int age = 25;
+double salary = 50000.50;
+char grade = 'A';
+boolean isEmployed = true;
+String name = "John Doe";</code></pre>
+
+  <h2>Conditional Statements</h2>
+  <p>Example of if-else statement:</p>
+  <pre><code>int score = 85;
+if (score >= 90) {
+  System.out.println("Excellent!");
+} else if (score >= 70) {
+  System.out.println("Good job!");
+} else {
+  System.out.println("Keep practicing!");
+}</code></pre>
+
+  <h2>Loops</h2>
+  <p>Example of a for loop:</p>
+  <pre><code>for (int i = 1; i <= 5; i++) {
+  System.out.println("Count: " + i);
+}</code></pre>
+
+  <h2>Classes and Objects</h2>
+  <p>Example of a class with constructor and method:</p>
+  <pre><code>public class Person {
+  private String name;
+  private int age;
+
+  public Person(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  public void sayHello() {
+    System.out.println("Hello, my name is " + name + " and I'm " + age + " years old.");
+  }
+}
+
+// Create an object of the Person class
+Person person = new Person("John", 30);
+person.sayHello();</code></pre>
+
+
+
+  
+
+
+  
+
+  <h2>Expressions</h2>
+  <p>An expression is a construct made up of variables, operators, and method invocations that evaluates to a single value:</p>
+  <pre><code>int cadence = 0;
+anArray[0] = 100;
+System.out.println("Element 1 at index 0: " + anArray[0]);
+
+int result = 1 + 2; // result is now 3
+if (value1 == value2)
+    System.out.println("value1 == value2");</code></pre>
+
+  <p>Expressions can return different types of values,
+

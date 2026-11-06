@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C Language Documentation</title>
+</head>
+<body>
+   
+
+    <h1>C Language Documentation</h1>
+
+  
+    <h2>Introduction to C Language</h2>
+    <p>C is a general-purpose programming language developed in the early 1970s by Dennis Ritchie. It is widely used for system programming, embedded systems, and developing software applications. C provides low-level access to memory, simple syntax, and a set of powerful features, making it efficient and versatile.</p>
+
+    <h2>Key Features of C Language</h2>
+    <ul>
+       <h3> <li>Structured programming approach</li>
+        <li>Rich set of data types and operators</li>
+        <li>Powerful control flow statements</li>
+        <li>Functions for code modularity</li>
+        <li>Pointers for memory manipulation</li>
+        <li>Arrays for storing collections of data</li>
+        <li>Standard library for common functions</li></h3>
+    </ul>
+
+    <h2>Variables and Data Types</h2>
+    <p>In C, variables are used to store data. Each variable has a data type, which determines the size and type of values it can hold. Common data types include integers, floating-point numbers, characters, and more. Variables must be declared before use and can be assigned values using the assignment operator (=).</p>
+
+    <h2>Control Structures</h2>
+    <p>Control structures allow you to control the flow of execution in a program. C provides if-else statements for conditional execution, loops such as for, while, and do-while for iterative execution, and switch-case statements for multiple branching.</p>
+
+    <h2>Functions</h2>
+    <p>Functions in C allow you to modularize your code by breaking it into smaller, reusable pieces. A function declaration specifies the function's name, return type, and parameters, while the function definition contains the actual implementation. Functions are called using their name followed by parentheses, and they can return values using the return statement.</p>
+
+    <h2>Arrays</h2>
+    <p>Arrays are used to store collections of data of the same type. They provide a way to represent and manipulate multiple elements under a single variable name. Array elements are accessed using their indices, starting from 0.</p>
+
+    <h2>Pointers</h2>
+    <p>Pointers are variables that store memory addresses. They allow you to work with memory directly, enabling dynamic memory allocation and manipulation. Pointers can be used to access and modify values at specific memory locations, facilitating efficient data handling and passing by reference.</p>
+
+    <h2>Recursion</h2>
+    <p>Recursion is a programming technique where a function calls itself to solve a problem. It involves breaking down a complex problem into simpler subproblems until a base case is reached. Recursion is useful for solving problems that exhibit a recursive structure, such as tree traversal, mathematical calculations, and more.</p>
+
+    <h2>Sorting Techniques</h2>
+    <p>Sorting is a common task in programming, and C provides various sorting techniques to arrange elements in a specific order. Some popular sorting algorithms include:</p>
+    <ul>
+        <li>Bubble Sort</li>
+        <li>Selection Sort</li>
+        <li>Insertion Sort</li>
+        <li>Merge Sort</li>
+        <li>Quick Sort</li>
+        
+
+
+    <h2>1. Variables and Data Types</h2>
+    <pre>
+        <code>
+            #include &lt;stdio.h&gt;
+
+            int main() {
+                // Variables
+                int age = 25;
+                float height = 1.75;
+                char grade = 'A';
+
+                printf("Age: %d\n", age);
+                printf("Height: %.2f\n", height);
+                printf("Grade: %c\n", grade);
+
+                return 0;
+            }
+        </code>
+    </pre>
+
+    <h2>2. Control Structures</h2>
+    <pre>
+        <code>
+            #include &lt;stdio.h&gt;
+
+            int main() {
+                // If-else statement
+                int num = 10;
+
+                if (num > 0) {
+                    printf("Positive\n");
+                } else if (num < 0) {
+                    printf("Negative\n");
+                } else {
+                    printf("Zero\n");
+                }
+
+                // For loop
+                for (int i = 0; i < 5; i++) {
+                    printf("%d ", i);
+                }
+                printf("\n");
+
+                // While loop
+                int i = 0;
+                while (i < 5) {
+                    printf("%d ", i);
+                    i++;
+                }
+                printf("\n");
+
+                return 0;
+            }
+        </code>
+    </pre>
+
+    <h2>3. Functions</h2>
+    <pre>
+        <code>
+            #include &lt;stdio.h&gt;
+
+            // Function declaration
+            int add(int a, int b);
+
+            int main() {
+                int num1 = 10, num2 = 5;
+                int sum = add(num1, num2);
+
+                printf("Sum: %d\n", sum);
+
+                return 0;
+            }
+
+            // Function definition
+            int add(int a, int b) {
+                return a + b;
+            }
+        </code>
+    </pre>
+
+    <h2>4. Arrays</h2>
+    <pre>
+        <code>
+            #include &lt;stdio.h&gt;
+
+            int main() {
+                // Array declaration and initialization
+                int numbers[] = {1, 2, 3, 4, 5};
+
+                // Accessing array elements
+                printf("First element: %d\n", numbers[0]);
+                printf("Third element: %d\n", numbers[2]);
+
+                return 0;
+            }
+        </code>
+    </pre>
+
+    <h2>5. Pointers</h2>
+    <pre>
+        <code>
+            #include &lt;stdio.h&gt;
+
+            int main() {
+                int num = 10;
+                int* ptr = &num;
+
+                printf("Value: %d\n", *ptr);
+                printf("Address: %p\n", ptr);
+
+                return 0;
+            }
+        </code>
+    </pre>
+    
+    <style>
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+          line-height: 1.6;
+          margin: 20px;
+          background: linear-gradient(to bottom, #c6abfd, #c6abfd);
+        }
+    
+        h1 {
+          color: #333;
+          font-size: 24px;
+          font-family:Arial, Helvetica, sans-serif;
+        }
+    
+        h2 {
+          color: #333;
+          font-size: 20px;
+          font-family:Arial, Helvetica, sans-serif;
+        }
+    
+        p {
+          color: black;
+          font-family:Arial, Helvetica, sans-serif;
+        }
+    
+        pre {
+          background-color: #e2d5ff;
+          padding: 10px;
+          overflow-x: auto;
+          font-family:Arial, Helvetica, sans-serif;
+        }
+    
+        code {
+          font-family:Arial, Helvetica, sans-serif;
+          
+        }
+    </style>
+
+
+</html>

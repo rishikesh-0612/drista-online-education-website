@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DSA Quiz</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #00bfff, #008000);
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .question p {
+            margin: 0;
+            font-weight: bold;
+            color: white;
+        }
+
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            
+        }
+
+        .option {
+            width: 50%;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #eee;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .option:hover {
+            background-color: #ddd;
+        }
+
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DSA Quiz</h1>
+
+        <form action="formsubmitted.html" method="post" >
+            <div class="question">
+                <p>Question 1: What is the time complexity of searching in a sorted array?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="q1"> O(1)</label>
+                    <label class="option"><input type="radio" name="q1"> O(n)</label>
+                    <label class="option"><input type="radio" name="q1"> O(log n)</label>
+                    <label class="option"><input type="radio" name="q1"> O(n log n)</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Question 2: Which data structure uses LIFO (Last-In-First-Out) order?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="q2"> Stack</label>
+                    <label class="option"><input type="radio" name="q2"> Queue</label>
+                    <label class="option"><input type="radio" name="q2"> Linked List</label>
+                    <label class="option"><input type="radio" name="q2"> Tree</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Question 3: What is the time complexity of inserting a node at the beginning of a singly linked list?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="q3"> O(1)</label>
+                    <label class="option"><input type="radio" name="q3"> O(n)</label>
+                    <label class="option"><input type="radio" name="q3"> O(log n)</label>
+                    <label class="option"><input type="radio" name="q3"> O(n log n)</label>
+                </div>
+            </div>
+    
+            <div class="question">
+                <p>Question 4: Which sorting algorithm has the best time complexity in the average case?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="q4"> Bubble Sort</label>
+                    <label class="option"><input type="radio" name="q4"> Merge Sort</label>
+                    <label class="option"><input type="radio" name="q4"> Insertion Sort</label>
+                    <label class="option"><input type="radio" name="q4"> Selection Sort</label>
+                </div>
+            </div>
+    
+            <div class="question">
+                <p>Question 5: What is the maximum number of nodes at level "k" of a binary tree?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="q5"> k</label>
+                    <label class="option"><input type="radio" name="q5"> 2^k</label>
+                    <label class="option"><input type="radio" name="q5"> 2^(k-1)</label>
+                    <label class="option"><input type="radio" name="q5"> 2^(k+1)</label>
+                </div>
+            </div>
+    
+            <div class="question">
+                <p>Question 6: Which data structure uses a First-In-First-Out (FIFO) order?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="q6"> Stack</label>
+                    <label class="option"><input type="radio" name="q6"> Queue</label>
+                    <label class="option"><input type="radio" name="q6"> Linked List</label>
+                    <label class="option"><input type="radio" name="q6"> Tree</label>
+                </div>
+            </div>
+    
+            <div class="question">
+                <p>Question 7: Which data structure allows rapid access to elements based on their values?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="q7"> Stack</label>
+                    <label class="option"><input type="radio" name="q7"> Queue</label>
+                    <label class="option"><input type="radio" name="q7"> Array</label>
+                    <label class="option"><input type="radio" name="q7"> Hash Table</label>
+                </div>
+            </div>
+            <div class="question">
+                <p>Question 8: Which searching algorithm is used for searching elements in a sorted and rotated array?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="q8"> Linear Search</label>
+                    <label class="option"><input type="radio" name="q8"> Binary Search</label>
+                    <label class="option"><input type="radio" name="q8"> Jump Search</label>
+                    <label class="option"><input type="radio" name="q8"> Interpolation Search</label>
+                </div>
+            </div>
+    
+            <div class="question">
+                <p>Question 9: Which sorting algorithm has the worst-case time complexity of O(n^2)?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="q9"> Quick Sort</label>
+                    <label class="option"><input type="radio" name="q9"> Merge Sort</label>
+                    <label class="option"><input type="radio" name="q9"> Bubble Sort</label>
+                    <label class="option"><input type="radio" name="q9"> Insertion Sort</label>
+                </div>
+            </div>
+    
+            <div class="question">
+                <p>Question 10: Which data structure is used to implement a Breadth-First Search (BFS)?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="q10"> Stack</label>
+                    <label class="option"><input type="radio" name="q10"> Queue</label>
+                    <label class="option"><input type="radio" name="q10"> Linked List</label>
+                    <label class="option"><input type="radio" name="q10"> Tree</label>
+                </div>
+            </div>
+    
+            <div class="question">
+                <p>Question 11: In a binary heap, the key at each node is __________ the keys at its child nodes.</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="q11"> Less than or equal to</label>
+                    <label class="option"><input type="radio" name="q11"> Greater than or equal to</label>
+                    <label class="option"><input type="radio" name="q11"> Less than</label>
+                    <label class="option"><input type="radio" name="q11"> Greater than</label>
+                </div>
+            </div>
+    
+            <div class="question">
+                <p>Question 12: Which data structure is used to implement Depth-First Search (DFS)?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="q12"> Stack</label>
+                    <label class="option"><input type="radio" name="q12"> Queue</label>
+                    <label class="option"><input type="radio" name="q12"> Linked List</label>
+                    <label class="option"><input type="radio" name="q12"> Tree</label>
+                </div>
+                <input type="submit" value="Submit" class="submit-btn"> 
+            </div>
+            
+    
+            
+    
+    
+    
+        </form>
+      
+   
+
+
+
+</body>
+            

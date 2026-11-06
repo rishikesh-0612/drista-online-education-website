@@ -1,0 +1,442 @@
+.home-page-child {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-skyblue);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 78px;
+  mix-blend-mode: normal;
+}
+.drisht,
+.login {
+  text-decoration: none;
+  position: absolute;
+  color: inherit;
+  display: inline-block;
+}
+.drisht {
+  top: calc(50% - 19.5px);
+  left: 64px;
+  font-size: var(--font-size-13xl);
+  min-width: 108px;
+  white-space: nowrap;
+}
+.login {
+  top: 22px;
+  left: 1212px;
+  min-width: 37px;
+}
+.signup1 {
+  margin: 0;
+}
+.signup {
+  text-decoration: none;
+  position: absolute;
+  top: 22px;
+  left: 1276px;
+  color: inherit;
+}
+.frame-child {
+  position: absolute;
+  top: 13px;
+  left: 1349px;
+  border-radius: var(--br-118xl);
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.drisht-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-plum);
+  width: 100%;
+  height: 71px;
+  mix-blend-mode: normal;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.adds-icon {
+  border: 0;
+  background-color: transparent;
+  height: 350px;
+  width: 795px;
+  outline: 0;
+  position: absolute;
+  top: 137px;
+  left: 58px;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+}
+.important-navigation- {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--color-darkorange);
+}
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-palegreen);
+  width: 9px;
+  height: 32px;
+}
+.courses1 {
+  margin: 0;
+}
+.courses {
+  text-decoration: none;
+  position: absolute;
+  top: 1px;
+  left: 19px;
+  color: inherit;
+}
+.frame-inner,
+.rectangle-parent {
+  position: absolute;
+  top: 39px;
+  left: 58px;
+  width: 82px;
+  height: 39px;
+}
+.frame-inner {
+  top: 0;
+  left: 0;
+  background-color: var(--color-tomato);
+  width: 9px;
+  height: 32px;
+}
+.about-the-authors {
+  text-decoration: none;
+  position: absolute;
+  top: 1px;
+  left: 19px;
+  color: inherit;
+}
+.rectangle-div,
+.rectangle-group {
+  position: absolute;
+  top: 85px;
+  left: 58px;
+  width: 158px;
+  height: 32px;
+}
+.rectangle-div {
+  top: 0;
+  left: 0;
+  background-color: var(--color-blue);
+  width: 9px;
+}
+.c-programming {
+  text-decoration: none;
+  position: absolute;
+  top: 1px;
+  left: 19px;
+  color: inherit;
+  display: inline-block;
+  min-width: 117px;
+}
+.frame-child1,
+.rectangle-container {
+  position: absolute;
+  top: 137px;
+  left: 58px;
+  width: 136px;
+  height: 32px;
+}
+.frame-child1 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-aqua);
+  width: 9px;
+}
+.learning-paths1 {
+  margin: 0;
+}
+.learning-paths {
+  position: absolute;
+  top: 6px;
+  left: 22px;
+  display: inline-block;
+  width: 151px;
+  height: 26px;
+}
+.frame-child2,
+.group-div {
+  position: absolute;
+  top: 189px;
+  left: 58px;
+  width: 173px;
+  height: 32px;
+}
+.frame-child2 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-yellow-200);
+  width: 9px;
+}
+.evaluation {
+  position: absolute;
+  top: 1px;
+  left: 19px;
+  display: inline-block;
+  min-width: 78px;
+}
+.frame-div,
+.rectangle-parent1 {
+  position: absolute;
+  top: 241px;
+  left: 58px;
+  width: 97px;
+  height: 32px;
+}
+.frame-div {
+  top: 212px;
+  left: 61px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  display: none;
+}
+.important-navigation-parent {
+  position: absolute;
+  top: 162px;
+  left: 950px;
+  background-color: var(--color-skyblue);
+  width: 414px;
+  height: 350px;
+  overflow: hidden;
+}
+.c-programming1,
+.language {
+  margin: 0;
+}
+.c-programming-language-container {
+  position: absolute;
+  top: calc(50% - 12px);
+  right: 0;
+  line-height: 120.95%;
+  font-weight: 500;
+}
+.c-1-icon {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: -16px;
+  width: 84px;
+  height: 101px;
+  object-fit: cover;
+}
+.c-programming-language-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-khaki);
+  width: 178px;
+  height: 88px;
+  overflow: hidden;
+}
+.java,
+.language1,
+.programming {
+  margin: 0;
+}
+.java-programming-language-container {
+  position: absolute;
+  top: calc(50% - 24px);
+  right: 5px;
+  line-height: 120.95%;
+  font-weight: 500;
+}
+.java-1-icon {
+  position: absolute;
+  top: -20px;
+  left: -29px;
+  width: 134px;
+  height: 128px;
+  object-fit: cover;
+}
+.java-programming-language-parent {
+  position: absolute;
+  top: 0;
+  left: 270px;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-khaki);
+  width: 178px;
+  height: 88px;
+  overflow: hidden;
+}
+.language2,
+.programming1,
+.python {
+  margin: 0;
+}
+.python-programming-language-container {
+  position: absolute;
+  top: calc(50% - 24px);
+  right: 5px;
+  line-height: 120.95%;
+  font-weight: 500;
+}
+.python-logo-1-icon {
+  position: absolute;
+  top: 0;
+  left: -21px;
+  width: 101px;
+  height: 107px;
+  object-fit: cover;
+}
+.python-programming-language-parent {
+  position: absolute;
+  top: 0;
+  left: 540px;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-khaki);
+  width: 178px;
+  height: 88px;
+  overflow: hidden;
+}
+.hyper-text,
+.language3,
+.markup {
+  margin: 0;
+}
+.hyper-text-markup-container {
+  position: absolute;
+  top: calc(50% - 24px);
+  right: 20px;
+  line-height: 120.95%;
+  font-weight: 500;
+}
+.html-1-icon {
+  position: absolute;
+  top: -26px;
+  left: -35px;
+  width: 117px;
+  height: 120px;
+  object-fit: cover;
+}
+.hyper-text-markup-language-parent {
+  position: absolute;
+  top: 4px;
+  left: 810px;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-khaki);
+  width: 178px;
+  height: 88px;
+  overflow: hidden;
+}
+.cascading,
+.css,
+.style-sheet {
+  margin: 0;
+}
+.cascading-style-sheet-container {
+  position: absolute;
+  top: calc(50% - 24px);
+  right: 17px;
+  line-height: 120.95%;
+  font-weight: 500;
+}
+.css-1-icon {
+  position: absolute;
+  top: -25px;
+  left: -15px;
+  width: 86px;
+  height: 120px;
+  object-fit: cover;
+}
+.cascading-style-sheet-css-parent {
+  position: absolute;
+  top: 5px;
+  left: 1080px;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-khaki);
+  width: 178px;
+  height: 88px;
+  overflow: hidden;
+}
+.java-script,
+.language4,
+.programming2 {
+  margin: 0;
+}
+.javascript {
+  position: absolute;
+  top: calc(50% - 24px);
+  right: 2px;
+  line-height: 120.95%;
+  font-weight: 500;
+}
+.js-1-icon {
+  position: absolute;
+  top: -12px;
+  left: -41px;
+  width: 148px;
+  height: 112px;
+  object-fit: cover;
+}
+.javascript-parent {
+  position: absolute;
+  top: 137px;
+  left: 0;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-khaki);
+  width: 178px;
+  height: 88px;
+  overflow: hidden;
+}
+.frame-parent {
+  position: absolute;
+  top: 685px;
+  left: 91px;
+  width: 1258px;
+  height: 225px;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.topics-we-offer- {
+  margin: 0;
+  position: absolute;
+  top: 617px;
+  left: 91px;
+  font-size: var(--font-size-xl);
+  line-height: 120.95%;
+  font-weight: 500;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home-page {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  background-color: var(--color-skyblue);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .topics-we-offer- {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+}
